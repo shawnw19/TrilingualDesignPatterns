@@ -7,7 +7,7 @@ It is a learning repository which contains my own understanding of design patter
 
 The trilingual attempt is intended for deepening the knowledge of all three programming languages in a comparative fashion. 
 
-##Notice on the codes
+## Notice on the codes
 Each language is distinguished by file suffixes i.e. .rb, .py and .java respectively. Usually Java codes are separated into several classes in a folder.
 
 The codes of Java and Python were written in the way that is hoped to illustrate maximum unique styles and coding practices of them.
