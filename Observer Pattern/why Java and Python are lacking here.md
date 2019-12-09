@@ -1,0 +1,11 @@
+#### It is often a good idea not to assign the tasks to the tool that is virtually not good at accomplishing it.
+
+#### I decided not to implement this pattern in Java and Python for the moment due to again, the unique features of Java and Python themselves.
+
+#### As for Java, there is a prebuilt interface Observer in java.util which is deprecated from Java 9. The reason is based on the shortage of functionality and thread-unsafe problem (https://stackoverflow.com/questions/46380073/observer-is-deprecated-in-java-9-what-should-we-use-instead-of-it). Java, as a static and rather strong typed language is inherently good at building large applications and therefere, in the case of Observer pattern it is impossible to exclude concurrency, multithreading and serialization from consideration. However, such implementations are usually related to complex structures such like the event listening by a rover or subordinate electronic devices on its controller/server. The successor of Observer in Java is Flow api which contains more functions (Processor, Publisher, Subscriber and Subscription). The way more complex tool is used inevitably rather more ad hoc, and there is thus no reason to have imaginary situations untill we really face them.
+
+#### As for Python, the partial objective oriented design of the language itself makes essential functions like encapsulation very hard to implement. I referred to at least 5 examples of Observer pattern in Python written as tutorials and unfortunally no of them accomplished the job with ease and clearity. In real world people tend to refrain from having fancy things that are actually a drudgery afterwards. The Observer pattern is very hard to be implemented on Python without causing extra trouble.
+
+#### To recap, this pattern in Java is more suitable for complex cases that shall be treated individually when they are met, and Python is not good at doing it.
+
+#### Additionally, I found there is a nice implementation in Golang: https://flaviocopes.com/golang-event-listeners/. Golang is a C-like procedural , imperative yet concurrency-friendly language. Golang supports channels (classless modules). 
