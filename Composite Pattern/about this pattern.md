@@ -2,4 +2,4 @@
 
 ### I think this time Java did the best job among three using main() to drive the creation of objects and call the instance methods of them. A seemingly length main program is, however, in many cases safer and more readable than a dozen of analogous classes.
 
-### It is worth being noticed that the semantics of loop in Java is shown differently than Ruby and Python in terms of array-like Vector (c.f. annotations in Java codes). 
+### It is worth being noticed that the semantics of loop in Java is shown differently than Ruby and Python in the case of array-like Vector (c.f. annotations in Java codes). 
