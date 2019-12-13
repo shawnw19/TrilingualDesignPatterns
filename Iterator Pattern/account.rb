@@ -35,14 +35,4 @@ my_portforlio=Portfolio.new
 my_portforlio.add_account(act1)
 my_portforlio.add_account(act2)
 
-#|act| puts("Account owner: #{name}, balance: #{balance}")
-#def putsact(ptf)
-#  ptf.accounts.each do |act|
-#  puts("Account owner: #{name}, balance: #{balance}")
-#end
-#my_portforlio.each(putsact())
-def hello
-  puts "hello"
-end
-
 my_portforlio.each{|act| puts("Account owner: #{act.name}, balance: #{act.balance}")}
