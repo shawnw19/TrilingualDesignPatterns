@@ -44,3 +44,19 @@ end
 puts
 puts"after deletion"
 array.each { |color| puts(color)}
+
+puts
+puts "Returns all supported encodings using each_object"
+ObjectSpace.each_object(Encoding){|n| puts("The object is #{n}")}
+
+def subclass_of(superclass)
+  subclasses =[]
+  ObjectSpace.each_object(Class) do |k|
+    next if !k.ancestors.include?(superclass) || superclass==k ||k.to_s.include?('::') ||subclasses.include?(k.to_s)
+      subclasses << k.to_s
+    end
+    subclasses
+end
+
+puts
+puts(subclass_of(Numeric))
