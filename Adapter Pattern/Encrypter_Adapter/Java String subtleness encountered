@@ -1,0 +1,4 @@
+All descriptions are inside the Java codes.
+It seems that there are two kinds of issues:
+  1 Java String class
+  2 Java bitwise operator esp. it on space - need to investigate if real application cases met).
