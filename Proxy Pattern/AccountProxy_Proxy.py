@@ -1,3 +1,6 @@
+# The major part of this code, def proxy is provided by 0x709394 (https://github.com/fengkx) from https://0xffff.one/d/447
+## The key idea behind this design is the callable attribute of object which applies on method/function itself with thorough consideration of form and invocation commands though.
+
 from BankAccount import *
 
 class AccountProxy_Proxy:
