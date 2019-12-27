@@ -1,4 +1,4 @@
-# TrilingualDesignPatterns
+# Trilingual Design Patterns
 Like many readers, I was attracted by the understandable and comprehensive book Design Patterns in Ruby by Russ Olsen.
 
 This repository is trilingual imprementations of these key design patterns: in Java,Ruby and Python. 
