@@ -7,5 +7,3 @@
 #### As for Python, the partial objective oriented design of the language itself makes essential functions like encapsulation very hard to implement. The attributes (variables) of Subject and Observers are easy to get tanged up. I referred to at least 5 examples of Observer pattern in Python written as tutorials and unfortunally no of them accomplished the job with ease and clearity. In real world people tend to refrain from having fancy things that are actually a drudgery afterwards. The Observer pattern is very hard to be implemented on Python without causing extra trouble.
 
 #### To recap, this pattern in Java is more suitable for complex cases that shall be treated individually when they are met, and Python is not good at doing it.
-
-#### Additionally, I found there is a nice implementation in Golang: https://flaviocopes.com/golang-event-listeners/. Golang is a C-like procedural , imperative yet concurrency-friendly language. Golang supports channels (classless modules). 
